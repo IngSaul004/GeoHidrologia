@@ -5,7 +5,7 @@
       <div class="hero-overlay">
         <div class="hero-content">
           <h1>GeoHidrologia</h1>
-          <p>Expertos en extracción de agua subterránea con seguridad y eficiencia.</p>
+          <p><strong>E</strong>studios <strong>G</strong>eologicos <strong>G</strong>eofisicos y <strong>P</strong>erforacion</p>
           <button @click="scrollToInfo">Más Información</button>
         </div>
       </div>
@@ -15,14 +15,15 @@
     <section class="info-section" ref="infoSection" id="servicios">
       <div class="info-content">
         <h2>Nuestros Servicios</h2>
-        <p>Ofrecemos soluciones integrales para la extracción y gestión de agua subterránea, adaptadas a cualquier tipo de terreno.</p>
+      
         <ul>
-          <li>✔ Evaluación y análisis del terreno</li>
-          <li>✔ Perforación profesional de pozos profundos y someros</li>
-          <li>✔ Mantenimiento preventivo y correctivo</li>
-          <li>✔ Estudios hidrogeológicos y de calidad del agua</li>
-          <li>✔ Asesoría en proyectos agrícolas, industriales y domésticos</li>
-          <li>✔ Optimización de recursos hídricos</li>
+          <li>✔ Estudios geofisicos para localizar agua subterranea, caracterizacion de rocas para la construccion, localizacion de anomalias subterraneas en la construccion</li>
+          <li>✔ Perforacion de pozos profundos para extraer agua subterranea, Contamos con 4 equipos con diferentes capacidadades desde 50 hasta 700 Mts de profundidad</li>
+          <li>✔ Rehabilitacion (limpieza) de pozos profundos para agua con equipo de percusion Bucryus-Erie 22w</li>
+          <li>✔ Equipo chico hidraulico para pozos de hasta 80 Mts en material tipo 1 y 2</li>
+          <li>✔ Extraccion y colocacion de columnas y bombas en pozos profundos</li>
+          <li>✔ Bombeo y aforos en pozos de agua potable</li>
+          <li>✔ Video filmacion de pozos profundos, con camara sumergible con doble lente angular a color, horizontal y vertical 360°</li>
         </ul>
       </div>
     </section>
@@ -43,11 +44,49 @@
     <section class="info-section" id="nosotros">
       <div class="info-content">
         <h2>Sobre Nosotros</h2>
-        <p>Con más de 15 años de experiencia, somos líderes en perforación de pozos profundos y servicios relacionados con el agua subterránea.</p>
-        <p>Nuestro equipo está compuesto por ingenieros especializados, técnicos certificados y profesionales con experiencia en diferentes tipos de terrenos y proyectos.</p>
-        <p>Nos enfocamos en la seguridad, eficiencia y sustentabilidad, asegurando que cada proyecto cumpla con los más altos estándares de calidad.</p>
-        <p>Además, contamos con tecnología avanzada para la perforación y monitoreo de pozos, garantizando resultados confiables y duraderos.</p>
-        <p>La satisfacción de nuestros clientes es nuestra prioridad, ofreciendo asesoría completa desde la evaluación inicial hasta el mantenimiento post-perforación.</p>
+        <p>Somos una empresa consolidada con mas de 40 años de experiencia, lideres en los servicios de estudios geofísicos para localizar agua subterránea, perforación de pozos profundos, rehabilitaciones, aforos, entre otros relacionados con el agua.
+Nos enfocamos en la calidad de nuestro trabajo, eficiencia y sustentabilidad y el compromiso de otorgar los resultados esperados por el cliente.
+Además, contamos con maquinaria de tecnología avanzada garantizando resultados confiables y duraderos.
+La satisfacción de nuestros clientes es nuestra prioridad, ofreciendo siempre el mejor servicio, asesoría de principio a fin, detallando en cada informe todo lo relacionado con cada proyecto.
+</p>
+      </div>
+    </section>
+
+    <!-- Hero intermedio entre servicios y nosotros -->
+<section class="hero hero-middle">
+  <div class="hero-overlay">
+    <div class="hero-content">
+      <h2>Proyectos de Perforación</h2>
+      <p>Calidad y tecnología en cada servicio</p>
+    </div>
+  </div>
+</section>
+
+     <!-- Clientes -->
+     <section class="info-section" id="clientes">
+      <div class="info-content">
+        <h2>Algunos de nuestros clientes</h2>
+        <ul>
+          <li>CONSORCIO INMOBILIARIO GIG</li>
+          <li>BIENES RAICES JARDIN REAL S.A. DE C.V.</li>
+          <li>GRUPO INMOBILIARIO MXCASA S.A. DE C.V.</li>
+          <li>JAVER S.A. DE C.V.</li>
+          <li>GRUPO INMOBILIARIO ARA S.A. DE C.V.</li>
+          <li>CONSORCIO DE INGENIERÍA INTEGRAL S.A. DE C.V</li>
+          <li>GRUPO CONSTRUCTOR ADOBES S.A. DE C.V.</li>
+          <li>GRUPO SAN CARLOS</li>
+          <li>GRUPO CONSTRUCTOR SUDOCC S.A. DE C.V</li>
+        </ul>
+      </div>
+
+      <!-- Galería horizontal -->
+      <div class="clientes-img">
+        <img src="/public/img/ARA.jpg" alt="Ara" />
+        <img src="/img/clientes/cliente2.png" alt="Cliente 2" />
+        <img src="/img/clientes/cliente3.png" alt="Cliente 3" />
+        <img src="/img/clientes/cliente4.png" alt="Cliente 4" />
+        <img src="/img/clientes/cliente5.png" alt="Cliente 5" />
+        <img src="/img/clientes/cliente6.png" alt="Cliente 6" />
       </div>
     </section>
   <!-- Hero intermedio entre servicios y nosotros -->
@@ -72,6 +111,8 @@
         </a>
       </div>
     </section>
+
+  
 
    
 
@@ -131,7 +172,7 @@ const whatsappLink = 'https://wa.me/5211234567890?text=Hola,%20quiero%20informac
 /* Hero */
 .hero {
   height: 100vh;
-  background-image: url('../img/fondo.jpg');
+  background-image: url('/img/fondo.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -315,7 +356,7 @@ const whatsappLink = 'https://wa.me/5211234567890?text=Hola,%20quiero%20informac
 /* Hero intermedio */
 .hero-middle {
   height: 60vh; /* un poco más pequeño que el hero principal */
-  background-image: url('../img/a700-1.jpg'); /* tu imagen */
+  background-image: url('/img/a700-1.jpg'); /* tu imagen */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -354,7 +395,7 @@ const whatsappLink = 'https://wa.me/5211234567890?text=Hola,%20quiero%20informac
 /* Hero intermedio */
 .hero-low {
   height: 60vh; /* un poco más pequeño que el hero principal */
-  background-image: url('../img/perforaciones.jpg'); /* tu imagen */
+  background-image: url('/img/perforaciones.jpg'); /* tu imagen */
   background-size: cover;
   background-position: center;
   position: relative;

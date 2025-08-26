@@ -3,7 +3,7 @@
     <div class="nav-container">
       <!-- Contenedor del logo y título -->
       <div class="brand">
-        <img class="logo-img" src="/src/img/Logo_perforacion_agua.png" alt="Logo">
+        <img class="logo-img" src="/img/Logo_perforacion_agua.png" alt="Logo">
         <h1 class="logo">GeoHidrologia</h1>
       </div>
 
@@ -19,6 +19,8 @@
         <li><a href="#inicio" @click="closeMenu">Inicio</a></li>
         <li><a href="#nosotros" @click="closeMenu">Nosotros</a></li>
         <li><a href="#servicios" @click="closeMenu">Servicios</a></li>
+        <li><a href="#clientes" @click="closeMenu">Clientes</a></li>
+        <li><a href="#Galeria" @click="closeMenu">Galeria</a></li>
         <li><a href="#contacto" @click="closeMenu">Contacto</a></li>
       </ul>
     </div>
