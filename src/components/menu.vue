@@ -16,19 +16,16 @@
 
       <!-- Menú -->
       <ul :class="['nav-links', { 'active': isOpen }]">
-        <li><a href="#inicio" @click="closeMenu">Inicio</a></li>
-        <li><a href="#nosotros" @click="closeMenu">Nosotros</a></li>
-        <li><a href="#servicios" @click="closeMenu">Servicios</a></li>
-        <li><a href="#clientes" @click="closeMenu">Clientes</a></li>
-        <li><a href="#Galeria" @click="closeMenu">Galeria</a></li>
-        <li><a href="#contacto" @click="closeMenu">Contacto</a></li>
+        <li><a href="#inicio" @click.prevent="scrollToSection('inicio')">Inicio</a></li>
+        <li><a href="#nosotros" @click.prevent="scrollToSection('nosotros')">Nosotros</a></li>
+        <li><a href="#servicios" @click.prevent="scrollToSection('servicios')">Servicios</a></li>
+        <li><a href="#clientes" @click.prevent="scrollToSection('clientes')">Clientes</a></li>
+        <li><a href="#Galeria" @click.prevent="scrollToSection('Galeria')">Galeria</a></li>
+        <li><a href="#contacto" @click.prevent="scrollToSection('contacto')">Contacto</a></li>
       </ul>
     </div>
   </header>
 </template>
-
-
-
 
 <script setup>
 import { ref } from 'vue'
@@ -39,12 +36,19 @@ const toggleMenu = () => {
   isOpen.value = !isOpen.value
 }
 
-// Cierra el menú al hacer clic en un enlace
 const closeMenu = () => {
   isOpen.value = false
 }
-</script>
 
+// Scroll suave a sección
+const scrollToSection = (id) => {
+  const el = document.getElementById(id)
+  if (el) {
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    closeMenu() // cierra menú en mobile
+  }
+}
+</script>
 
 <style scoped>
 /* Reset básico */
@@ -52,7 +56,7 @@ const closeMenu = () => {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
@@ -121,7 +125,6 @@ const closeMenu = () => {
   transition: 0.3s;
 }
 
-/* Animación hamburguesa */
 .menu-toggle span.open:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
@@ -138,7 +141,7 @@ const closeMenu = () => {
     display: flex;
   }
 
- .nav-links {
+  .nav-links {
     display: none;
     flex-direction: column;
     position: absolute;
@@ -155,28 +158,21 @@ const closeMenu = () => {
     display: flex;
   }
 
-
-
   .nav-links li a {
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
   }
 }
 
-
 /* Contenedor logo + título */
 .brand {
   display: flex;
-  align-items: center; /* centra verticalmente */
-  gap: 10px; /* espacio entre logo y texto */
+  align-items: center;
+  gap: 10px;
 }
 
-/* Logo imagen */
 .logo-img {
-  height: 40px;  /* ajusta el tamaño */
-  width: auto;   /* mantiene proporción */
+  height: 40px;
+  width: auto;
 }
-
-
-
 </style>
