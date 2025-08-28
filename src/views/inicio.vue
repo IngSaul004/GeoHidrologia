@@ -29,7 +29,7 @@
     </section>
 
     <!-- Hero intermedio entre servicios y nosotros -->
-<section class="hero hero-middle">
+<section class="hero hero-middle1">
   <div class="hero-overlay">
     <div class="hero-content">
       <h2>Proyectos de Perforación</h2>
@@ -53,7 +53,7 @@ La satisfacción de nuestros clientes es nuestra prioridad, ofreciendo siempre e
     </section>
 
     <!-- Hero intermedio entre servicios y nosotros -->
-<section class="hero hero-middle">
+<section class="hero hero-middle2">
   <div class="hero-overlay">
     <div class="hero-content">
       <h2>Proyectos de Perforación</h2>
@@ -62,33 +62,143 @@ La satisfacción de nuestros clientes es nuestra prioridad, ofreciendo siempre e
   </div>
 </section>
 
-     <!-- Clientes -->
-     <section class="info-section" id="clientes">
-      <div class="info-content">
-        <h2>Algunos de nuestros clientes</h2>
-        <ul>
-          <li>CONSORCIO INMOBILIARIO GIG</li>
-          <li>BIENES RAICES JARDIN REAL S.A. DE C.V.</li>
-          <li>GRUPO INMOBILIARIO MXCASA S.A. DE C.V.</li>
-          <li>JAVER S.A. DE C.V.</li>
-          <li>GRUPO INMOBILIARIO ARA S.A. DE C.V.</li>
-          <li>CONSORCIO DE INGENIERÍA INTEGRAL S.A. DE C.V</li>
-          <li>GRUPO CONSTRUCTOR ADOBES S.A. DE C.V.</li>
-          <li>GRUPO SAN CARLOS</li>
-          <li>GRUPO CONSTRUCTOR SUDOCC S.A. DE C.V</li>
-        </ul>
-      </div>
+ <section class="info-section" id="clientes">
+  <div class="info-content">
+    <h2>Algunos de nuestros clientes</h2>
+    <ul>
+      <li>CONSORCIO INMOBILIARIO GIG</li>
+      <li>BIENES RAICES JARDIN REAL S.A. DE C.V.</li>
+      <li>GRUPO INMOBILIARIO MXCASA S.A. DE C.V.</li>
+      <li>JAVER S.A. DE C.V.</li>
+      <li>GRUPO INMOBILIARIO ARA S.A. DE C.V.</li>
+      <li>CONSORCIO DE INGENIERÍA INTEGRAL S.A. DE C.V</li>
+      <li>GRUPO CONSTRUCTOR ADOBES S.A. DE C.V.</li>
+      <li>GRUPO SAN CARLOS</li>
+      <li>GRUPO CONSTRUCTOR SUDOCC S.A. DE C.V</li>
+    </ul>
+  </div>
 
-      <!-- Galería horizontal -->
-      <div class="clientes-img">
-        <img src="/public/img/ARA.jpg" alt="Ara" />
-        <img src="/img/clientes/cliente2.png" alt="Cliente 2" />
-        <img src="/img/clientes/cliente3.png" alt="Cliente 3" />
-        <img src="/img/clientes/cliente4.png" alt="Cliente 4" />
-        <img src="/img/clientes/cliente5.png" alt="Cliente 5" />
-        <img src="/img/clientes/cliente6.png" alt="Cliente 6" />
-      </div>
-    </section>
+  <!-- Galería horizontal de logos -->
+  <div class="clientes-img">
+    <img src="../../public/img/ARA.png" alt="ARA" />
+    <img src="../../public/img/GIG.png" alt="GIG" />
+    <img src="../../public/img/JAVER.png" alt="JAVER" />
+    <img src="../../public/img/MX.CASA.png" alt="MX.CASA" />
+    <img src="../../public/img/SAN_CARLOS.png" alt="SAN CARLOS" />
+    <img src="../../public/img/SUDOCC.png" alt="SUDDOC" />
+  </div>
+</section>
+
+<section class="hero hero-middle3">
+  <div class="hero-overlay">
+    <div class="hero-content">
+      <h2>Proyectos de Perforación</h2>
+      <p>Calidad y tecnología en cada servicio</p>
+    </div>
+  </div>
+</section>
+
+<section class="info-section" id="Galeria">
+  <div class="info-content">
+    <h2>Galeria</h2>
+  </div>
+
+  <!-- 📌 Bloque de Galería -->
+<div class="galeria-img">
+
+  <!-- Imágenes -->
+  <img 
+    src="../../public/img/galeria/1.jpg" 
+    alt="1" 
+    @click="openLightbox('../../public/img/galeria/1.jpg', 'image')" 
+  />
+
+  <img 
+    src="../../public/img/galeria/2.jpg" 
+    alt="2" 
+    @click="openLightbox('../../public/img/galeria/2.jpg', 'image')" 
+  />
+
+  <img 
+    src="../../public/img/galeria/3.jpg" 
+    alt="3" 
+    @click="openLightbox('../../public/img/galeria/3.jpg', 'image')" 
+  />
+
+  <img 
+    src="../../public/img/galeria/4.jpg" 
+    alt="4" 
+    @click="openLightbox('../../public/img/galeria/4.jpg', 'image')" 
+  />
+
+  <img 
+    src="../../public/img/galeria/5.jpg" 
+    alt="5" 
+    @click="openLightbox('../../public/img/galeria/5.jpg', 'image')" 
+  />
+  <img 
+    src="../../public/img/galeria/6.jpg" 
+    alt="6" 
+    @click="openLightbox('../../public/img/galeria/6.jpg', 'image')" 
+  />
+
+  <img 
+    src="../../public/img/galeria/7.jpg" 
+    alt="7" 
+    @click="openLightbox('../../public/img/galeria/7.jpg', 'image')" 
+  />
+  <img 
+    src="../../public/img/galeria/8.jpg" 
+    alt="8" 
+    @click="openLightbox('../../public/img/galeria/8.jpg', 'image')" 
+  />
+
+  <img 
+    src="../../public/img/galeria/9.jpg" 
+    alt="9" 
+    @click="openLightbox('../../public/img/galeria/9.jpg', 'image')" 
+  />
+  <img 
+    src="../../public/img/galeria/10.jpg" 
+    alt="10" 
+    @click="openLightbox('../../public/img/galeria/10.jpg', 'image')" 
+  />
+
+  <!-- Videos -->
+  <video 
+    src="../../public/img/galeria/1.mp4" 
+    type="video/mp4" 
+    muted
+    @click="openLightbox('../../public/img/galeria/1.mp4', 'video')">
+  </video>
+
+  <video 
+    src="../../public/img/galeria/2.mp4" 
+    type="video/mp4" 
+    muted
+    @click="openLightbox('../../public/img/galeria/2.mp4', 'video')">
+  </video>
+
+</div>
+
+
+ <!-- Lightbox -->
+<div v-if="selectedMedia" class="lightbox" @click="closeLightbox">
+  <div class="lightbox-content" @click.stop>
+    <!-- Mostrar imagen -->
+    <img v-if="selectedType === 'image'" :src="selectedMedia" alt="media" />
+
+    <!-- Mostrar video -->
+    <video v-else-if="selectedType === 'video'" :src="selectedMedia" controls autoplay></video>
+
+    <!-- Botón de cerrar -->
+    <button class="lightbox-close" @click="closeLightbox">✕</button>
+  </div>
+</div>
+
+</section>
+
+
   <!-- Hero intermedio entre servicios y nosotros -->
 <section class="hero hero-low">
   <div class="hero-overlay">
@@ -153,6 +263,19 @@ const scrollToInfo = () => {
 
 // Número de WhatsApp (ejemplo: 5211234567890)
 const whatsappLink = 'https://wa.me/5211234567890?text=Hola,%20quiero%20información%20sobre%20sus%20servicios'
+
+const selectedMedia = ref(null) // guarda la ruta del archivo seleccionado
+const selectedType = ref(null)  // "image" o "video"
+
+const openLightbox = (src, type) => {
+  selectedMedia.value = src
+  selectedType.value = type
+}
+
+const closeLightbox = () => {
+  selectedMedia.value = null
+  selectedType.value = null
+}
 </script>
 
 <style scoped>
@@ -172,7 +295,7 @@ const whatsappLink = 'https://wa.me/5211234567890?text=Hola,%20quiero%20informac
 /* Hero */
 .hero {
   height: 100vh;
-  background-image: url('/img/fondo.jpg');
+  background-image: url('/img/galeria/6.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -181,7 +304,7 @@ const whatsappLink = 'https://wa.me/5211234567890?text=Hola,%20quiero%20informac
 .hero-overlay {
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.6);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -352,11 +475,23 @@ const whatsappLink = 'https://wa.me/5211234567890?text=Hola,%20quiero%20informac
   box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* sombra elegante */
 }
 
+/* Hero intermedio 1 */
+.hero-middle1 {
+  background-image: url('/img/galeria/8.jpg');
+}
+
+/* Hero intermedio 2 */
+.hero-middle2 {
+  background-image: url('/img/galeria/11.jpg');
+}
+/* Hero intermedio 3 */
+.hero-middle3 {
+  background-image: url('/img/galeria/1.jpg');
+}
 
 /* Hero intermedio */
 .hero-middle {
   height: 60vh; /* un poco más pequeño que el hero principal */
-  background-image: url('/img/a700-1.jpg'); /* tu imagen */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -368,7 +503,7 @@ const whatsappLink = 'https://wa.me/5211234567890?text=Hola,%20quiero%20informac
 .hero-middle .hero-overlay {
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.4); /* oscurece para mejor contraste */
+  background-color: rgba(0,0,0,0.6); /* oscurece para mejor contraste */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -395,7 +530,7 @@ const whatsappLink = 'https://wa.me/5211234567890?text=Hola,%20quiero%20informac
 /* Hero intermedio */
 .hero-low {
   height: 60vh; /* un poco más pequeño que el hero principal */
-  background-image: url('/img/perforaciones.jpg'); /* tu imagen */
+  background-image: url('/img/galeria/9.jpg'); /* tu imagen */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -429,6 +564,251 @@ const whatsappLink = 'https://wa.me/5211234567890?text=Hola,%20quiero%20informac
   font-size: 1.2rem;
   font-weight: 400;
 }
+
+/* Clientes - galería horizontal */
+.clientes-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;       /* fila única */
+  overflow-x: auto;        /* scroll horizontal en pantallas pequeñas */
+  gap: 1.5rem;
+  margin-top: 4rem;
+  padding-bottom: 1rem;
+  width: 90%;
+}
+
+.clientes-img img {
+  flex: 0 0 auto;          /* no se encoge */
+  max-width: 120px;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s;
+  border-radius: 10px;
+  padding: 10px;
+}
+.clientes-img img:hover {
+transform: scale(1.2);
+}
+
+#clientes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Contenedor general de la galería */
+#Galeria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Filas de la galería */
+.galeria-img {
+  display: flex;
+  flex-wrap: wrap;       /* ahora se adaptan en varias filas */
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+/* Imágenes */
+.galeria-img img {
+  width: 220px;               /* ancho uniforme */
+  height: 150px;              /* alto fijo */
+  object-fit: cover;          /* recorta y centra */
+  border-radius: 10px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.galeria-img img:hover {
+  transform: scale(1.05);
+}
+
+/* Videos */
+.galeria-img video {
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  background-color: #000;     /* relleno negro si no carga */
+  transition: transform 0.3s;
+}
+
+.galeria-img video:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive: tablets */
+@media (max-width: 1024px) {
+  .galeria-img img,
+  .galeria-img video {
+    width: 180px;
+    height: 120px;
+  }
+}
+
+/* Responsive: móviles */
+@media (max-width: 600px) {
+  .galeria-img {
+    gap: 0.8rem;
+  }
+
+  .galeria-img img,
+  .galeria-img video {
+    width: 140px;
+    height: 100px;
+  }
+}
+
+/* Lightbox overlay */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Contenido */
+.lightbox-content {
+  max-width: 90%;
+  max-height: 90%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 📌 Lightbox imágenes */
+.lightbox-content img {
+  max-width: 90vw;   /* hasta 90% del ancho de la ventana */
+  max-height: 85vh;  /* hasta 85% del alto */
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.8);
+}
+
+/* 📌 Lightbox videos */
+.lightbox-content video {
+  max-width: 80vw;   /* no más del 80% de ancho */
+  max-height: 70vh;  /* no más del 70% de alto */
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.8);
+  background-color: #000; /* por si tiene bordes vacíos */
+}
+
+
+/* Botón cerrar */
+.lightbox-close {
+  position: absolute;
+  top: -40px;
+  right: -10px;
+  font-size: 2rem;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.lightbox-close:hover {
+  transform: scale(1.2);
+  color: #f33;
+}
+
+
+/* ✨ Animaciones base */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes zoomIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Animar el hero al cargar */
+.hero-content {
+  animation: fadeInUp 1s ease-out;
+}
+
+/* Títulos con fade in */
+.info-content h2 {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+/* Párrafos y listas */
+.info-content p,
+.info-content li {
+  animation: fadeIn 1s ease-in;
+}
+
+/* Botones */
+button,
+.whatsapp-button {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+button:hover,
+.whatsapp-button:hover {
+  transform: translateY(-3px) scale(1.05);
+}
+
+/* Logos de clientes: entran con zoom suave */
+.clientes-img img {
+  animation: zoomIn 0.6s ease;
+  transition: transform 0.3s ease;
+}
+.clientes-img img:hover {
+  transform: scale(1.2) rotate(-2deg);
+}
+
+/* Galería: miniaturas con fade/zoom */
+.galeria-img img,
+.galeria-img video {
+  animation: zoomIn 0.6s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.galeria-img img:hover,
+.galeria-img video:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+/* Lightbox: efecto al abrir */
+.lightbox-content {
+  animation: zoomIn 0.4s ease;
+}
+
+/* Footer íconos */
+.social-icons a {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.social-icons a:hover {
+  transform: scale(1.2) rotate(5deg);
+  color: #ffd700;
+}
+
+
+
 
 </style>
 
