@@ -79,20 +79,48 @@ La satisfacción de nuestros clientes es nuestra prioridad, ofreciendo siempre e
 
   <!-- Galería horizontal de logos -->
   <div class="clientes-img">
-    <img src="../../public/img/ARA.png" alt="ARA" />
-    <img src="../../public/img/GIG.png" alt="GIG" />
-    <img src="../../public/img/JAVER.png" alt="JAVER" />
-    <img src="../../public/img/MX.CASA.png" alt="MX.CASA" />
-    <img src="../../public/img/SAN_CARLOS.png" alt="SAN CARLOS" />
-    <img src="../../public/img/SUDOCC.png" alt="SUDDOC" />
+    <img src="/img/ARA.png" alt="ARA" />
+    <img src="/img/GIG.png" alt="GIG" />
+    <img src="/img/JAVER.png" alt="JAVER" />
+    <img src="/img/MX.CASA.png" alt="MX.CASA" />
+    <img src="/img/SAN_CARLOS.png" alt="SAN CARLOS" />
+    <img src="/img/SUDOCC.png" alt="SUDDOC" />
   </div>
 </section>
 
 <section class="hero hero-middle3">
   <div class="hero-overlay">
     <div class="hero-content">
+     <h2>Maquinaria y Equipo</h2>
+<p>Contamos con equipos de última generación y herramientas especializadas, que nos permiten realizar cada trabajo con precisión, rapidez y máxima seguridad.</p>
+
+    </div>
+  </div>
+</section>
+
+
+ <section class="info-section" id="clientes">
+  <div class="info-content">
+    <h2>Clientes gobierno</h2>
+    <ul>
+      <li>H. Ayto. De Tlajomulco De Zúñiga, Jal. </li>
+      <li>H. Ayto. De Chapala, Jal. </li>
+      <li>SIAPA, SISTEMA DE AGUA POTABLE Y ALCANTARILLADO. </li>
+      <li>H. Ayto. De Jocotepec, Jal. </li>
+      <li>H. Ayto. de Mascota, jal. </li>
+      <li>H. Ayto. de Tanhuato, Mich. Localización de agua subterránea con geofísica aplicada, así como el diseño constructivo de las obras de perforación de pozos profundos.</li>
+      <li>SECRETARÍA DE INFRAESTRUCTURA Y OBRA PÚBLICA. SIOP Jalisco. </li>
+    </ul>
+  </div>
+</section>
+
+
+
+<section class="hero hero-middle4">
+  <div class="hero-overlay">
+    <div class="hero-content">
       <h2>Tecnología y Experiencia</h2>
-      <p>Combinamos maquinaria de última generación con más de 40 años de experiencia en cada proyecto.</p>
+      <p>Combinamos más de 40 años de experiencia con maquinaria avanzada, asegurando resultados de alta calidad y total satisfacción en todos nuestros proyectos.</p>
     </div>
   </div>
 </section>
@@ -107,75 +135,75 @@ La satisfacción de nuestros clientes es nuestra prioridad, ofreciendo siempre e
 
   <!-- Imágenes -->
   <img 
-    src="../../public/img/galeria/1.jpg" 
+    src="/img/galeria/1.jpg" 
     alt="1" 
-    @click="openLightbox('../../public/img/galeria/1.jpg', 'image')" 
+    @click="openLightbox('/img/galeria/1.jpg', 'image')" 
   />
 
   <img 
-    src="../../public/img/galeria/2.jpg" 
+    src="/img/galeria/2.jpg" 
     alt="2" 
-    @click="openLightbox('../../public/img/galeria/2.jpg', 'image')" 
+    @click="openLightbox('/img/galeria/2.jpg', 'image')" 
   />
 
   <img 
-    src="../../public/img/galeria/3.jpg" 
+    src="/img/galeria/3.jpg" 
     alt="3" 
-    @click="openLightbox('../../public/img/galeria/3.jpg', 'image')" 
+    @click="openLightbox('/img/galeria/3.jpg', 'image')" 
   />
 
   <img 
-    src="../../public/img/galeria/4.jpg" 
+    src="/img/galeria/4.jpg" 
     alt="4" 
-    @click="openLightbox('../../public/img/galeria/4.jpg', 'image')" 
+    @click="openLightbox('/img/galeria/4.jpg', 'image')" 
   />
 
   <img 
-    src="../../public/img/galeria/5.jpg" 
+    src="/img/galeria/5.jpg" 
     alt="5" 
-    @click="openLightbox('../../public/img/galeria/5.jpg', 'image')" 
+    @click="openLightbox('/img/galeria/5.jpg', 'image')" 
   />
   <img 
-    src="../../public/img/galeria/6.jpg" 
+    src="/img/galeria/6.jpg" 
     alt="6" 
-    @click="openLightbox('../../public/img/galeria/6.jpg', 'image')" 
+    @click="openLightbox('/img/galeria/6.jpg', 'image')" 
   />
 
   <img 
-    src="../../public/img/galeria/7.jpg" 
+    src="/img/galeria/7.jpg" 
     alt="7" 
-    @click="openLightbox('../../public/img/galeria/7.jpg', 'image')" 
+    @click="openLightbox('/img/galeria/7.jpg', 'image')" 
   />
   <img 
-    src="../../public/img/galeria/8.jpg" 
+    src="/img/galeria/8.jpg" 
     alt="8" 
-    @click="openLightbox('../../public/img/galeria/8.jpg', 'image')" 
+    @click="openLightbox('/img/galeria/8.jpg', 'image')" 
   />
 
   <img 
-    src="../../public/img/galeria/9.jpg" 
+    src="/img/galeria/9.jpg" 
     alt="9" 
-    @click="openLightbox('../../public/img/galeria/9.jpg', 'image')" 
+    @click="openLightbox('/img/galeria/9.jpg', 'image')" 
   />
   <img 
-    src="../../public/img/galeria/10.jpg" 
+    src="/img/galeria/10.jpg" 
     alt="10" 
-    @click="openLightbox('../../public/img/galeria/10.jpg', 'image')" 
+    @click="openLightbox('/img/galeria/10.jpg', 'image')" 
   />
 
   <!-- Videos -->
   <video 
-    src="../../public/img/galeria/1.mp4" 
+    src="/img/galeria/3.mp4" 
     type="video/mp4" 
     muted
-    @click="openLightbox('../../public/img/galeria/1.mp4', 'video')">
+    @click="openLightbox('/img/galeria/3.mp4', 'video')">
   </video>
 
   <video 
-    src="../../public/img/galeria/2.mp4" 
+    src="/img/galeria/2.mp4" 
     type="video/mp4" 
     muted
-    @click="openLightbox('../../public/img/galeria/2.mp4', 'video')">
+    @click="openLightbox('/img/galeria/2.mp4', 'video')">
   </video>
 
 </div>
@@ -211,12 +239,20 @@ La satisfacción de nuestros clientes es nuestra prioridad, ofreciendo siempre e
 
     <!-- Contacto -->
     <section class="info-section contact-section" id="contacto">
-      <div class="info-content">
+      <div class="whatsapp-buttons">
         <h2>Contacto</h2>
         <p>¿Tienes dudas o quieres un presupuesto? Comunícate con nosotros directamente por WhatsApp:</p>
-        <a :href="whatsappLink" target="_blank" class="whatsapp-button">
+        <a :href="whatsappLink1" target="_blank" class="whatsapp-button">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.487 2.246 2.247 3.481 5.232 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.502-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.885-4.434 9.889-9.885.002-2.635-1.032-5.108-2.906-6.982-1.873-1.873-4.345-2.906-6.982-2.906-5.45 0-9.885 4.434-9.889 9.885-.001 2.18.632 3.945 1.746 5.681l-.999 3.648 3.556-.92zm11.387-5.464c-.297-.149-1.758-.868-2.031-.967-.273-.099-.471-.149-.669.15-.198.297-.767.967-.94 1.165-.173.198-.347.223-.644.074-.297-.149-1.253-.462-2.39-1.475-.883-.788-1.48-1.761-1.654-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.149-.173.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.569-.347z"/></svg>
-          Enviar mensaje
+          Enviar mensaje a: 33 3488 2221
+        </a>
+        <a :href="whatsappLink2" target="_blank" class="whatsapp-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.487 2.246 2.247 3.481 5.232 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.502-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.885-4.434 9.889-9.885.002-2.635-1.032-5.108-2.906-6.982-1.873-1.873-4.345-2.906-6.982-2.906-5.45 0-9.885 4.434-9.889 9.885-.001 2.18.632 3.945 1.746 5.681l-.999 3.648 3.556-.92zm11.387-5.464c-.297-.149-1.758-.868-2.031-.967-.273-.099-.471-.149-.669.15-.198.297-.767.967-.94 1.165-.173.198-.347.223-.644.074-.297-.149-1.253-.462-2.39-1.475-.883-.788-1.48-1.761-1.654-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.149-.173.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.569-.347z"/></svg>
+          Enviar mensaje a: 33 1228 4549
+        </a>
+        <a :href="whatsappLink3" target="_blank" class="whatsapp-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.487 2.246 2.247 3.481 5.232 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.502-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.885-4.434 9.889-9.885.002-2.635-1.032-5.108-2.906-6.982-1.873-1.873-4.345-2.906-6.982-2.906-5.45 0-9.885 4.434-9.889 9.885-.001 2.18.632 3.945 1.746 5.681l-.999 3.648 3.556-.92zm11.387-5.464c-.297-.149-1.758-.868-2.031-.967-.273-.099-.471-.149-.669.15-.198.297-.767.967-.94 1.165-.173.198-.347.223-.644.074-.297-.149-1.253-.462-2.39-1.475-.883-.788-1.48-1.761-1.654-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.149-.173.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.569-.347z"/></svg>
+           Enviar mensaje a: 33 1082 6595
         </a>
       </div>
     </section>
@@ -264,7 +300,10 @@ const scrollToInfo = () => {
 }
 
 // Número de WhatsApp (ejemplo: 5211234567890)
-const whatsappLink = 'https://wa.me/5211234567890?text=Hola,%20quiero%20información%20sobre%20sus%20servicios'
+const whatsappLink1 = 'https://wa.me/523334882221?text=Hola,%20quiero%20información%20sobre%20sus%20servicios';
+const whatsappLink2 = 'https://wa.me/523312284549?text=Hola,%20quiero%20información%20sobre%20sus%20servicios';
+const whatsappLink3 = 'https://wa.me/523310826595?text=Hola,%20quiero%20información%20sobre%20sus%20servicios';
+
 
 const selectedMedia = ref(null) // guarda la ruta del archivo seleccionado
 const selectedType = ref(null)  // "image" o "video"
@@ -491,6 +530,10 @@ const closeLightbox = () => {
   background-image: url('/img/galeria/1.jpg');
 }
 
+.hero-middle4 {
+  background-image: url('/img/galeria/7.jpg');
+}
+
 /* Hero intermedio */
 .hero-middle {
   height: 60vh; /* un poco más pequeño que el hero principal */
@@ -597,7 +640,17 @@ transform: scale(1.2);
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
+#clientes li{
+  transition: transform 0.3s;
+}
+#clientes li:hover{
+  transform: scale(1.2);
+}
+
+
+
 
 /* Contenedor general de la galería */
 #Galeria {
@@ -807,6 +860,44 @@ button:hover,
 .social-icons a:hover {
   transform: scale(1.2) rotate(5deg);
   color: #ffd700;
+}
+
+.whatsapp-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem; /* espacio entre botones */
+  margin-top: 1rem;
+}
+
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  background-color: #25D366;
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.whatsapp-button svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+}
+
+.whatsapp-button:hover {
+  background-color: #1DA851;
+  transform: translateY(-2px) scale(1.05);
+}
+.hero-content{
+  transition: transform 0.3s;
+}
+
+.hero-content:hover{
+  transform: scale(1.2);
 }
 
 
