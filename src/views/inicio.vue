@@ -45,6 +45,7 @@ La satisfacción de nuestros clientes es nuestra prioridad, ofreciendo siempre e
           <li>✔ Rehabilitacion (limpieza) de pozos profundos para agua con equipo de percusion Bucryus-Erie 22w</li>
           <li>✔ Equipo chico hidraulico para pozos de hasta 80 Mts en material tipo 1 y 2</li>
           <li>✔ Extraccion y colocacion de columnas y bombas en pozos profundos</li>
+          <li>✔ Equipamiento de pozo completo en media y alta tension</li>
           <li>✔ Bombeo y aforos en pozos de agua potable</li>
           <li>✔ Video filmacion de pozos profundos, con camara sumergible con doble lente angular a color, horizontal y vertical 360°</li>
         </ul>
@@ -105,7 +106,7 @@ La satisfacción de nuestros clientes es nuestra prioridad, ofreciendo siempre e
     <ul>
       <li>H. Ayto. De Tlajomulco De Zúñiga, Jal. </li>
       <li>H. Ayto. De Chapala, Jal. </li>
-      <li>SIAPA, SISTEMA DE AGUA POTABLE Y ALCANTARILLADO. </li>
+      <li>SIAPA, sistema de agua potable y alcantarillado. </li>
       <li>H. Ayto. De Jocotepec, Jal. </li>
       <li>H. Ayto. de Mascota, jal. </li>
       <li>H. Ayto. de Tanhuato, Mich. Localización de agua subterránea con geofísica aplicada, así como el diseño constructivo de las obras de perforación de pozos profundos.</li>
@@ -189,6 +190,32 @@ La satisfacción de nuestros clientes es nuestra prioridad, ofreciendo siempre e
     src="/img/galeria/10.jpg" 
     alt="10" 
     @click="openLightbox('/img/galeria/10.jpg', 'image')" 
+  />
+   <img 
+    src="/img/galeria/12.jpg" 
+    alt="12" 
+    @click="openLightbox('/img/galeria/12.jpg', 'image')" 
+  />
+
+   <img 
+    src="/img/galeria/13.jpg" 
+    alt="14" 
+    @click="openLightbox('/img/galeria/13.jpg', 'image')" 
+  />
+  <img 
+    src="/img/galeria/14.jpg" 
+    alt="14" 
+    @click="openLightbox('/img/galeria/14.jpg', 'image')" 
+  />
+  <img 
+    src="/img/galeria/15.jpg" 
+    alt="15" 
+    @click="openLightbox('/img/galeria/15.jpg', 'image')" 
+  />
+  <img 
+    src="/img/galeria/16.jpg" 
+    alt="16" 
+    @click="openLightbox('/img/galeria/16.jpg', 'image')" 
   />
 
   <!-- Videos -->
@@ -748,8 +775,8 @@ transform: scale(1.2);
 
 /* 📌 Lightbox imágenes */
 .lightbox-content img {
-  max-width: 90vw;   /* hasta 90% del ancho de la ventana */
-  max-height: 85vh;  /* hasta 85% del alto */
+  max-width: 70vw;   /* hasta 90% del ancho de la ventana */
+  max-height: 55vh;  /* hasta 85% del alto */
   object-fit: contain;
   border-radius: 12px;
   box-shadow: 0 0 25px rgba(0,0,0,0.8);
