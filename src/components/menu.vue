@@ -3,8 +3,8 @@
     <div class="nav-container">
       <!-- Contenedor del logo y título -->
       <div class="brand">
+        <img class="logo-img" src="/img/logo_geohidrologia_2.png" alt="Logo">
         <img class="logo-img" src="/img/Logo_perforacion_agua.png" alt="Logo">
-        <h1 class="logo">GeoHidrologia</h1>
       </div>
 
       <!-- Botón hamburguesa -->
@@ -75,15 +75,20 @@ const scrollToSection = (id) => {
   margin: 0 auto;
   padding: 0.8rem 1.5rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between; /* 👈 distribuye brand a la izq y nav/menu a la der */
 }
 
-/* Logo */
-.logo {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #0d6efd;
+/* Contenedor logo */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 55px;
+  width: auto;
 }
 
 /* Menú */
@@ -91,6 +96,7 @@ const scrollToSection = (id) => {
   list-style: none;
   display: flex;
   gap: 2rem;
+  margin-left: auto;  
 }
 
 .nav-links li a {
@@ -137,6 +143,18 @@ const scrollToSection = (id) => {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .nav-container {
+    justify-content: space-between; /* Logo a la izq, hamburguesa a la der */
+  }
+
+  .brand {
+    flex: 1; /* ocupa espacio a la izq */
+  }
+
+  .logo-img {
+    height: 40px; /* más pequeño en móvil */
+  }
+
   .menu-toggle {
     display: flex;
   }
@@ -161,18 +179,8 @@ const scrollToSection = (id) => {
   .nav-links li a {
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
+    text-align: center;
   }
 }
-
-/* Contenedor logo + título */
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo-img {
-  height: 40px;
-  width: auto;
-}
 </style>
+

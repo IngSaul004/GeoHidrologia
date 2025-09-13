@@ -344,6 +344,7 @@ const closeLightbox = () => {
   selectedMedia.value = null
   selectedType.value = null
 }
+
 </script>
 
 <style scoped>
@@ -550,7 +551,7 @@ const closeLightbox = () => {
 
 /* Hero intermedio 2 */
 .hero-middle2 {
-  background-image: url('/img/galeria/11.jpg');
+  background-image: url('/img/galeria/17.jpg');
 }
 /* Hero intermedio 3 */
 .hero-middle3 {
@@ -575,7 +576,7 @@ const closeLightbox = () => {
 .hero-middle .hero-overlay {
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.6); /* oscurece para mejor contraste */
+  background-color: rgba(0,0,0, 0.6); /* oscurece para mejor contraste */
   display: flex;
   justify-content: center;
   align-items: center;
