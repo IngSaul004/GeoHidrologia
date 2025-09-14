@@ -5,6 +5,7 @@
       <div class="brand">
         <img class="logo-img" src="/img/logo_geohidrologia_2.png" alt="Logo">
         <img class="logo-img" src="/img/Logo_perforacion_agua.png" alt="Logo">
+        <h2>GEOHIDROLOGIA</h2>
       </div>
 
       <!-- Botón hamburguesa -->
@@ -182,5 +183,18 @@ const scrollToSection = (id) => {
     text-align: center;
   }
 }
+
+.brand h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0d6efd;
+  animation: blink 3s infinite ease-in-out; /* 👈 animación lenta */
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; } /* 👈 baja la opacidad para que se vea el parpadeo */
+}
+
 </style>
 
