@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="footer-grid">
-      <div class="footer-brand">
+      <div class="footer-brand" v-reveal>
         <div class="footer-logos">
           <img src="/img/logo_geohidrologia_2.png" alt="Logo GeoHidrología" loading="lazy" width="80" height="42" />
           <img src="/img/Logo_perforacion_agua.png" alt="Logo perforación de agua" loading="lazy" width="80" height="42" />
@@ -9,7 +9,7 @@
         <p>Estudios geofísicos, perforación y rehabilitación de pozos profundos de agua en Jalisco y México, con más de 40 años de experiencia.</p>
       </div>
 
-      <div>
+      <div v-reveal="{ delay: 0.08 }">
         <h4>Navegación</h4>
         <ul class="footer-links">
           <li><a href="#inicio">Inicio</a></li>
@@ -20,7 +20,7 @@
         </ul>
       </div>
 
-      <div>
+      <div v-reveal="{ delay: 0.16 }">
         <h4>Contacto</h4>
         <ul class="footer-links">
           <li><a href="https://wa.me/523334882221" target="_blank" rel="noopener">33 3488 2221</a></li>

@@ -1,7 +1,7 @@
 <template>
   <section class="hero" id="inicio" style="background-image: url('/img/galeria/6.jpg')">
     <div class="hero-overlay">
-      <div class="hero-content">
+      <div class="hero-content" v-reveal>
         <span class="hero-badge">💧 Más de 40 años de experiencia en Jalisco</span>
         <h1>Estudios geofísicos y perforación de pozos de agua</h1>
         <p class="lead">

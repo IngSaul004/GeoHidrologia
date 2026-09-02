@@ -88,6 +88,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 }
 
 .nav-links li a {
+  position: relative;
   text-decoration: none;
   color: var(--text-primary);
   font-weight: 500;
@@ -95,8 +96,24 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
   transition: color 0.3s;
 }
 
+.nav-links li:not(.nav-cta) a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
 .nav-links li a:hover {
   color: var(--accent);
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
 }
 
 .nav-cta a {

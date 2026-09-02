@@ -1,7 +1,7 @@
 <template>
   <section class="info-section" id="nosotros">
     <div class="about-grid">
-      <div class="about-text">
+      <div class="about-text" v-reveal="{ variant: 'left' }">
         <div class="eyebrow">Quiénes somos</div>
         <h2>Más de 40 años perforando el futuro del agua en México</h2>
         <p>
@@ -15,7 +15,7 @@
           principio a fin, detallando en cada informe todo lo relacionado con el proyecto.
         </p>
       </div>
-      <div class="about-media">
+      <div class="about-media" v-reveal="{ variant: 'right', delay: 0.15 }">
         <img
           src="/img/perforaciones.jpg"
           alt="Equipo de perforación de pozos de agua de GeoHidrología en campo"

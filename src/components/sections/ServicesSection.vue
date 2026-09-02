@@ -1,12 +1,17 @@
 <template>
   <section class="info-section info-section--muted" id="servicios">
-    <div class="info-content">
+    <div class="info-content" v-reveal>
       <div class="eyebrow">Lo que hacemos</div>
       <h2>Nuestros Servicios</h2>
       <p>Soluciones completas para localizar, perforar, mantener y equipar pozos de agua profundos.</p>
 
       <div class="services-grid">
-        <article v-for="(servicio, i) in servicios" :key="servicio.title" class="service-card" :style="{ animationDelay: `${i * 0.05}s` }">
+        <article
+          v-for="(servicio, i) in servicios"
+          :key="servicio.title"
+          class="service-card"
+          v-reveal="{ delay: (i % 4) * 0.08 }"
+        >
           <div class="service-icon" v-html="servicio.icon"></div>
           <h3>{{ servicio.title }}</h3>
           <p>{{ servicio.text }}</p>

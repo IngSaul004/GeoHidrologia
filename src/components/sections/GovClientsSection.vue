@@ -1,11 +1,11 @@
 <template>
   <section class="info-section info-section--muted clientes-section" id="clientes-gobierno">
-    <div class="info-content">
+    <div class="info-content" v-reveal>
       <div class="eyebrow">Sector público</div>
       <h2>Clientes gobierno</h2>
 
       <ul class="chip-list">
-        <li v-for="cliente in clientesGobierno" :key="cliente">{{ cliente }}</li>
+        <li v-for="(cliente, i) in clientesGobierno" :key="cliente" v-reveal="{ variant: 'scale', delay: i * 0.06 }">{{ cliente }}</li>
       </ul>
     </div>
   </section>

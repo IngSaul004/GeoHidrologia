@@ -1,12 +1,12 @@
 <template>
   <section class="info-section galeria-section" id="Galeria">
-    <div class="info-content">
+    <div class="info-content" v-reveal>
       <div class="eyebrow">Nuestro trabajo</div>
       <h2>Galería</h2>
       <p>Proyectos de perforación, rehabilitación y estudios geofísicos en campo.</p>
     </div>
 
-    <div class="gallery-tabs">
+    <div class="gallery-tabs" v-reveal>
       <button
         v-for="tab in tabs"
         :key="tab.value"
@@ -20,9 +20,10 @@
 
     <div class="galeria-img">
       <div
-        v-for="img in visibleImages"
+        v-for="(img, i) in visibleImages"
         :key="img.src"
         class="gallery-item"
+        v-reveal="{ variant: 'scale', delay: (i % 8) * 0.05 }"
         @click="openLightbox(img.src, 'image')"
       >
         <img :src="img.src" :alt="img.alt" loading="lazy" decoding="async" width="230" height="160" />
@@ -32,9 +33,10 @@
       </div>
 
       <div
-        v-for="video in visibleVideos"
+        v-for="(video, i) in visibleVideos"
         :key="video.src"
         class="gallery-item"
+        v-reveal="{ variant: 'scale', delay: (i % 8) * 0.05 }"
         @click="openLightbox(video.src, 'video')"
       >
         <video :src="video.src" preload="none" muted :aria-label="video.alt" width="230" height="160"></video>
