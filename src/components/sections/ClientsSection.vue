@@ -9,16 +9,21 @@
       </ul>
 
       <div class="clientes-img">
-        <img
-          v-for="logo in logos"
+        <div
+          v-for="(logo, i) in logos"
           :key="logo.src"
-          :src="logo.src"
-          :alt="`Logo del cliente ${logo.alt}`"
-          loading="lazy"
-          decoding="async"
-          width="110"
-          height="70"
-        />
+          class="logo-card"
+          :style="{ animationDelay: `${i * 0.4}s` }"
+        >
+          <img
+            :src="logo.src"
+            :alt="`Logo del cliente ${logo.alt}`"
+            loading="lazy"
+            decoding="async"
+            width="110"
+            height="70"
+          />
+        </div>
       </div>
     </div>
   </section>
