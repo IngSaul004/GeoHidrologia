@@ -1,24 +1,25 @@
 <template>
   <section class="info-section clientes-section" id="clientes">
     <div class="info-content">
+      <div class="eyebrow">Confianza que se construye con resultados</div>
       <h2>Algunos de nuestros clientes</h2>
-      <ul>
+
+      <ul class="chip-list">
         <li v-for="cliente in clientes" :key="cliente">{{ cliente }}</li>
       </ul>
-    </div>
 
-    <!-- Galería horizontal de logos -->
-    <div class="clientes-img">
-      <img
-        v-for="logo in logos"
-        :key="logo.src"
-        :src="logo.src"
-        :alt="`Logo del cliente ${logo.alt}`"
-        loading="lazy"
-        decoding="async"
-        width="120"
-        height="80"
-      />
+      <div class="clientes-img">
+        <img
+          v-for="logo in logos"
+          :key="logo.src"
+          :src="logo.src"
+          :alt="`Logo del cliente ${logo.alt}`"
+          loading="lazy"
+          decoding="async"
+          width="110"
+          height="70"
+        />
+      </div>
     </div>
   </section>
 </template>

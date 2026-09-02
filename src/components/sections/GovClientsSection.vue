@@ -1,8 +1,10 @@
 <template>
-  <section class="info-section clientes-section" id="clientes-gobierno">
+  <section class="info-section info-section--muted clientes-section" id="clientes-gobierno">
     <div class="info-content">
+      <div class="eyebrow">Sector público</div>
       <h2>Clientes gobierno</h2>
-      <ul>
+
+      <ul class="chip-list">
         <li v-for="cliente in clientesGobierno" :key="cliente">{{ cliente }}</li>
       </ul>
     </div>

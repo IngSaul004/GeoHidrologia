@@ -2,6 +2,8 @@
   <div class="inicio-view">
     <HeroSection />
 
+    <StatsSection />
+
     <AboutSection />
 
     <HeroBanner
@@ -40,7 +42,6 @@
       title="Compromiso con la Calidad"
       text="Soluciones seguras y eficientes para cada cliente"
       image="/img/galeria/9.jpg"
-      overlay-color="rgba(0, 0, 0, 0.4)"
     />
 
     <ContactSection />
@@ -51,6 +52,7 @@
 
 <script setup>
 import HeroSection from '../components/sections/HeroSection.vue'
+import StatsSection from '../components/sections/StatsSection.vue'
 import AboutSection from '../components/sections/AboutSection.vue'
 import HeroBanner from '../components/sections/HeroBanner.vue'
 import ServicesSection from '../components/sections/ServicesSection.vue'
