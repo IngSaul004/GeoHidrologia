@@ -1,0 +1,47 @@
+<template>
+  <section class="info-section clientes-section" id="clientes">
+    <div class="info-content">
+      <h2>Algunos de nuestros clientes</h2>
+      <ul>
+        <li v-for="cliente in clientes" :key="cliente">{{ cliente }}</li>
+      </ul>
+    </div>
+
+    <!-- Galería horizontal de logos -->
+    <div class="clientes-img">
+      <img
+        v-for="logo in logos"
+        :key="logo.src"
+        :src="logo.src"
+        :alt="`Logo del cliente ${logo.alt}`"
+        loading="lazy"
+        decoding="async"
+        width="120"
+        height="80"
+      />
+    </div>
+  </section>
+</template>
+
+<script setup>
+const clientes = [
+  'CONSORCIO INMOBILIARIO GIG',
+  'BIENES RAICES JARDIN REAL S.A. DE C.V.',
+  'GRUPO INMOBILIARIO MXCASA S.A. DE C.V.',
+  'JAVER S.A. DE C.V.',
+  'GRUPO INMOBILIARIO ARA S.A. DE C.V.',
+  'CONSORCIO DE INGENIERÍA INTEGRAL S.A. DE C.V',
+  'GRUPO CONSTRUCTOR ADOBES S.A. DE C.V.',
+  'GRUPO SAN CARLOS',
+  'GRUPO CONSTRUCTOR SUDOCC S.A. DE C.V',
+]
+
+const logos = [
+  { src: '/img/ARA.png', alt: 'ARA' },
+  { src: '/img/GIG.png', alt: 'GIG' },
+  { src: '/img/JAVER.png', alt: 'JAVER' },
+  { src: '/img/MX.CASA.png', alt: 'MX.CASA' },
+  { src: '/img/SAN_CARLOS.png', alt: 'SAN CARLOS' },
+  { src: '/img/SUDOCC.png', alt: 'SUDOCC' },
+]
+</script>
