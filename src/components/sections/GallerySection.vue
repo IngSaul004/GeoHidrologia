@@ -66,6 +66,11 @@ const imagenes = imageNumbers.map((n) => ({
   alt: `Trabajo de perforación y estudio geohidrológico realizado por GeoHidrología en Jalisco - imagen ${n}`,
 }))
 
+imagenes.push({
+  src: '/img/galeria/18.jpeg',
+  alt: 'Equipo de perforación de pozo profundo en obra realizado por GeoHidrología',
+})
+
 const videoNumbers = [1, 2, 3]
 const videos = videoNumbers.map((n) => ({
   src: `/img/galeria/${n}.mp4`,
