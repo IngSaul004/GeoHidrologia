@@ -11,7 +11,7 @@
         <p>
           Nos enfocamos en la calidad de nuestro trabajo, la eficiencia y la sustentabilidad, con el
           compromiso de otorgar los resultados esperados por el cliente. Contamos con maquinaria de
-          tecnología avanzada que garantiza resultados confiables y duraderos, y ofrecemos asesoría de
+          tecnología avanzada que garantiza resultados confiables y duraderos, ofrecemos asesoría de
           principio a fin, detallando en cada informe todo lo relacionado con el proyecto.
         </p>
       </div>
