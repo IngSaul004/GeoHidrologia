@@ -14,7 +14,7 @@ import { reactive, ref, onMounted, onUnmounted } from 'vue'
 
 const stats = [
   { target: 40, suffix: '+', label: 'Años de experiencia' },
-  { target: 4, suffix: '', label: 'Equipos de perforación' },
+  { target: 6, suffix: '', label: 'Equipos de perforación' },
   { target: 700, suffix: ' m', label: 'Profundidad máxima' },
   { target: 16, prefix: '+', suffix: '', label: 'Clientes destacados' },
 ]

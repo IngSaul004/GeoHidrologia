@@ -350,6 +350,11 @@ body {
   text-align: left;
 }
 
+.about-text p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .about-media {
   position: relative;
   border-radius: var(--radius-lg);

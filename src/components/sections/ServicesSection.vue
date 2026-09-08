@@ -32,7 +32,7 @@ const servicios = [
   },
   {
     title: 'Perforación de pozos profundos',
-    text: 'Extracción de agua subterránea con 4 equipos de diferentes capacidades, desde 50 hasta 700 metros de profundidad.',
+    text: 'Extracción de agua subterránea con 6 equipos de perforación de diferentes capacidades, desde 50 hasta 700 metros de profundidad.',
     icon: icon('M12 2v14m0 0l-4-4m4 4l4-4M5 20h14'),
   },
   {
