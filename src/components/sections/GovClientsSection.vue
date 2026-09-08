@@ -17,7 +17,7 @@ const clientesGobierno = [
   'H. Ayto. De Chapala, Jal.',
   'SIAPA, sistema de agua potable y alcantarillado.',
   'H. Ayto. De Jocotepec, Jal.',
-  'H. Ayto. de Mascota, jal.',
+  'H. Ayto. De Mascota, Jal.',
   'H. Ayto. de Tanhuato, Mich. Localización de agua subterránea con geofísica aplicada, así como el diseño constructivo de las obras de perforación de pozos profundos.',
   'SECRETARÍA DE INFRAESTRUCTURA Y OBRA PÚBLICA. SIOP Jalisco.',
 ]

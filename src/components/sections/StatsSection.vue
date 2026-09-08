@@ -2,7 +2,7 @@
   <section class="stats-band" ref="sectionEl">
     <div class="stats-grid">
       <div v-for="(stat, i) in stats" :key="stat.label" class="stat-item" v-reveal="{ variant: 'scale', delay: i * 0.1 }">
-        <div class="stat-number">{{ displayed[i] }}{{ stat.suffix }}</div>
+        <div class="stat-number">{{ stat.prefix || '' }}{{ displayed[i] }}{{ stat.suffix || '' }}</div>
         <div class="stat-label">{{ stat.label }}</div>
       </div>
     </div>
@@ -16,7 +16,7 @@ const stats = [
   { target: 40, suffix: '+', label: 'Años de experiencia' },
   { target: 4, suffix: '', label: 'Equipos de perforación' },
   { target: 700, suffix: ' m', label: 'Profundidad máxima' },
-  { target: 16, suffix: '+', label: 'Clientes y organismos atendidos' },
+  { target: 16, prefix: '+', suffix: '', label: 'Clientes destacados' },
 ]
 
 const displayed = reactive(stats.map(() => 0))

@@ -4,7 +4,7 @@
       <div class="brand">
         <img class="logo-img" src="/img/logo_geohidrologia_2.png" alt="Logo GeoHidrología" width="55" height="55" />
         <img class="logo-img" src="/img/Logo_perforacion_agua.png" alt="Logo perforación de agua" width="55" height="55" />
-        <h2>GEOHIDROLOGIA</h2>
+        <h2>GEOHIDROLOGÍA</h2>
       </div>
 
       <button class="menu-toggle" @click="toggleMenu" aria-label="Menú">
@@ -18,7 +18,7 @@
         <li><a href="#nosotros" @click.prevent="scrollToSection('nosotros')">Nosotros</a></li>
         <li><a href="#servicios" @click.prevent="scrollToSection('servicios')">Servicios</a></li>
         <li><a href="#clientes" @click.prevent="scrollToSection('clientes')">Clientes</a></li>
-        <li><a href="#Galeria" @click.prevent="scrollToSection('Galeria')">Galeria</a></li>
+        <li><a href="#Galeria" @click.prevent="scrollToSection('Galeria')">Galería</a></li>
         <li><a href="#contacto" @click.prevent="scrollToSection('contacto')">Contacto</a></li>
         <li class="nav-cta">
           <a href="https://wa.me/523334882221" target="_blank" rel="noopener" @click="closeMenu">Cotizar</a>
